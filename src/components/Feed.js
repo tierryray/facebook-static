@@ -9,8 +9,7 @@ class Feed extends Component {
         id: 1,
         author: {
           name: 'Marquinho Zuckerberg',
-          avatar:
-            'https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401',
+          avatar: 'https://api.adorable.io/avatars/40/abott@adorable.png',
         },
         date: '04 Jun 2019',
         content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
@@ -19,9 +18,10 @@ class Feed extends Component {
             id: 1,
             author: {
               name: 'Diego Fernandes',
-              avatar: 'http://url-da-imagem.com/imagem.jpg',
+              avatar: 'https://api.adorable.io/avatars/40/Tierry.png',
             },
-            content: 'Conteúdo do comentário',
+            content:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
           },
         ],
       },
@@ -29,11 +29,22 @@ class Feed extends Component {
         id: 2,
         author: {
           name: 'Steve Jobson',
-          avatar:
-            'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0NTIzODQwMDE1/steven-jobs-9354805-2-402.jpg',
+          avatar: 'https://api.adorable.io/avatars/40/Diego.png',
         },
         date: '04 Jun 2019',
-        content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
+        content:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore?',
+        comments: [
+          {
+            id: 1,
+            author: {
+              name: 'Diego Fernandes',
+              avatar: 'https://api.adorable.io/avatars/40/Lucas.png',
+            },
+            content:
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+          },
+        ],
       },
     ],
   };
