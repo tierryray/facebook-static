@@ -50,7 +50,13 @@ class Feed extends Component {
   };
 
   render() {
-    return this.state.posts.map(post => <Post key={post.id} data={post} />);
+    return (
+      <div className="container">
+        {this.state.posts.map(post => (
+          <Post key={post.id} data={post} />
+        ))}
+      </div>
+    );
   }
 }
 
